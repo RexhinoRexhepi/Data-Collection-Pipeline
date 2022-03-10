@@ -194,7 +194,7 @@ class Flights_Scraper:
         EMAIL_ADDRESS = user_email.username
         EMAIL_PASSWORD = user_email.password
 
-        contacts = ['rexhino.rexhepi@outlook.it', 'rexhino.rexhepi.1994@gmail.com']
+        contacts = []
 
         emailfrom = EMAIL_ADDRESS
         emailto = ', '.join(contacts)
